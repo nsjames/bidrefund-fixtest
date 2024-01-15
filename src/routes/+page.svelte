@@ -1,11 +1,11 @@
 <section>
-    <h1>Namebid fixer!</h1>
+    <h1>Namebid refunder!</h1>
 
     <label>The name you bid on</label><br />
     <input type="text" placeholder="Name" bind:value={name} />
     <br />
     <br />
-    <button on:click={fix}>Fix</button>
+    <button on:click={fix}>Refund</button>
 </section>
 
 <script lang="ts">
